@@ -1,0 +1,32 @@
+.border {
+    border: 30px solid black;
+    height: 70vh;
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+}
+.inside {
+   height: 100%;
+   width: 100%;
+   background-color: brown;
+   padding: 5px 5px;
+}
+
+.inside > div:first-child{
+   background-color: sandybrown;
+   height:30% ;
+   margin: 10px 15px;
+}
+
+.inside > div:nth-child(2){
+   background-color: burlywood;
+   height:30% ;
+   margin: 15px 3px;
+}
+
+.inside > div:nth-child(3){
+   background-color: red;
+   height:30% ;
+   margin: 10px 7px;
+   border-radius: 20px;
+}
